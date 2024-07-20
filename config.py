@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7122921031:AAGReUs6q9y-9_ka8dS6eluzsIHpt4nIYdU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7085187225:AAEVHHiQU4ZHmxu_6ftiNqlt1Z9ijj6Xnx8")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "27158380"))
@@ -25,13 +25,13 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002037021883"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "6791098303"))
 
 #Port
-PORT = os.environ.get("PORT", "1122")
+PORT = os.environ.get("PORT", "1112")
 
 #Database 
-DB_URI = "mongodb+srv://Yinsolvx:Olo5Db41ckrZUak3@cluster0.c5xzmmb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_URI = "mongodb+srv://Ayush:Hijda@zen.haecqvp.mongodb.net/?retryWrites=true&w=majority&appName=Zen"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "link2paisa.com")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "67cd1842583a6ff0d22faa67d97e98191f01ed49")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
