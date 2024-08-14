@@ -10,25 +10,25 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7498264348:AAH64Ub8e2KKKq5tzw94eirIyUj5Oqg9vRU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7209923723:AAHqGIkfUKuSEUWSHGd52HWU_kOXy6zwV6M")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "27158380"))
+APP_ID = int(os.environ.get("APP_ID", "24262361"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "522a2ab8895f062dfd5f2fe7e941f77e")
+API_HASH = os.environ.get("API_HASH", "6dc187358c7edf4c2040cf3fd6c1a834")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002037021883"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002171725822"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6791098303"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7092346282"))
 
 #Port
 PORT = os.environ.get("PORT", "1112")
 
 #Database 
-DB_URI = "mongodb+srv://Ayush:Hijda@zen.haecqvp.mongodb.net/?retryWrites=true&w=majority&appName=Zen"
+DB_URI = "mongodb+srv://Bapusarkarbjppvt:HU8jDvgoGuUJv6yI@cluster0.khf1x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Zipshort.net")
@@ -39,7 +39,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/unfiltered_backup")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001981603944"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -47,7 +47,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "").split()):
+    for x in (os.environ.get("ADMINS", "7092346282").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -68,7 +68,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1392566136)
+ADMINS.append(7092346282)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
