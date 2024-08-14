@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "24262361"))
 API_HASH = os.environ.get("API_HASH", "6dc187358c7edf4c2040cf3fd6c1a834")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002171725822"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002080049890"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7092346282"))
@@ -31,11 +31,11 @@ PORT = os.environ.get("PORT", "1112")
 DB_URI = "mongodb+srv://Bapusarkarbjppvt:HU8jDvgoGuUJv6yI@cluster0.khf1x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Zipshort.net")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "be510fb8cbf0eeee0e1b9bc14fe591938819ef28")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "61a1d3c4cba576208f8a19954ce085ca15fde194")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/unfiltered_backup")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/c/1969426832/139")
 
 
 #force sub channel id, if you want enable force sub
